@@ -32,6 +32,12 @@ $ShadowAlpha: 0.2;
     // z-index: 10;
 }
 
+
+
+
+
+
+
 img {
     &:where([src*="check"], [src*="x.svg"]) {
         border-radius: 50%;
@@ -47,6 +53,23 @@ img {
         background-color: hsl(0, 93%, 68%);
     }
 }
+
+
+[data-check] {
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    padding: 0.4rem 0.3rem 0.3rem 0.4rem;
+    background-color: hsl(120, 58%, 71%);
+}
+&[src*="check"] {
+    background-color: hsl(120, 58%, 71%);
+}
+&[src*="x.svg"] {
+    background-color: hsl(0, 93%, 68%);
+}
+
 
 .pricing__ctaArea {
     display: flex;

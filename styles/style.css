@@ -346,6 +346,10 @@ section {
   font-size: 1.8rem;
 }
 
+.pricing .pricing__price span {
+  font-size: 0.8rem;
+}
+
 .pricing div:not(.pricing__advantages) ul {
   display: -webkit-box;
   display: -ms-flexbox;

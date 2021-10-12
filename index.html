@@ -6,6 +6,7 @@
     <meta name="description" content="">
     <title>Hello world!</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/script.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -28,22 +29,21 @@
                     <li>newsletter mensile</li>
                     <li>gruppo telegram</li>
                     <li>pratiche settimanali</li>
-                    <li>pratiche settimanali</li>
+                    <li>bollettino Notion</li>
+                    <li></li>
                 </ul>
             </div>
 
             <div class="pricing__choice a">
                 <header>
                     <h2>pratica singola</h2>
-                    <div class="pricing__price">
-                        <strong>€ 15</strong> <span>/ lezione</span>
-                    </div>
+                    <div class="pricing__price"><strong>€ 15</strong> <span>/ lezione</span></div>
                 </header>                
                 <ul>
-                    <li class="check no"><img src="./images/x.svg" alt=""></li>
+                    <li><img src="./images/check.svg" alt=""></li>
                     <li><img src="./images/check.svg" alt=""></li>
                     <li>1</li>
-                    <li>1</li>
+                    <li data-check="yes">yes</li>
                 </ul>
             </div>
 
@@ -102,8 +102,7 @@
           </div>
 
 
-
+          <div id='sunflower' data-leaves='47' data-plant-height='2.4m'></div>
     </footer>
-  
 </body>
 </html>
