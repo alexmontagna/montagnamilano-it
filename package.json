@@ -1,0 +1,23 @@
+{
+  "name": "montagnamilano.it",
+  "version": "1.0.0",
+  "description": "Sito di Alex Montagna",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmontagna/montagnamilano.it.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmontagna/montagnamilano.it/issues"
+  },
+  "homepage": "https://github.com/alexmontagna/montagnamilano.it#readme",
+  "dependencies": {
+    "mjml": "^4.10.4"
+  }
+}
